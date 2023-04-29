@@ -23,21 +23,3 @@ export const articleApi = createApi({
 })
 
 export const { useLazyGetSummaryQuery } = articleApi
-
-
-// THIS IS TAKEN BY RAPID API WEBSITE LINK IS DOWN
-// https://rapidapi.com/restyler/api/article-extractor-and-summarizer
-
-// const options = {
-//     method: 'GET',
-//     url: 'https://article-extractor-and-summarizer.p.rapidapi.com/summarize',
-//     params: {
-//       url: 'https://time.com/6266679/musk-ai-open-letter/',
-//       length: '3'
-//     },
-//     headers: {
-//       'content-type': 'application/octet-stream',
-//       'X-RapidAPI-Key': 'dbb8417968msh51585addd166542p1ce0a1jsn171a2967823b',
-//       'X-RapidAPI-Host': 'article-extractor-and-summarizer.p.rapidapi.com'
-//     }
-//   };
